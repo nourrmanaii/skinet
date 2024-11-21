@@ -3,6 +3,7 @@
 namespace API.Controllers;
 
 [ApiController]
+[ApiExplorerSettings(IgnoreApi = true)]
 [Route("[controller]")] // GET https://localhost:5001/WeatherForecast
 public class WeatherForecastController : ControllerBase
 {
